@@ -2,28 +2,31 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Estos en Home
-      <button @click="sendMenssage">
-        <router-link to="/users" class="nav-link">Enviar mensaje</router-link>
-      </button>
+   Estoy en users {{mensaje}}
     </p>
-    
+   
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'HelloWorld',
+  name: 'Users',
+  data: function(){
+    return{
+      mensaje:'holi'
+    }
+   
+  },
   props: {
     msg: String
   },
-  methods:{
-    sendMenssage(){
-      this.$root.$emit("msj-text","Hola te escribo desde Home")
-    }
+  mounted(){
+    this.$root.$on("msj-text",(msg)=>{
+      this.mensaje=msg
+   
+    })
   }
-
 }
 </script>
 

@@ -1,28 +1,48 @@
+
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <div id="wrapper">
+        <!-- Menu -->
+        <Menu/>        
+        
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+            <!--Flyer-->
+            <Flyer/>
+        </div>
+      
+       
+        <!--
+        <div class="collapse navbar-collapse justify-content-end" id="mylist">
+          <div id="nav" class="navbar-nav">
+            <router-link to="/" class="nav-link">Home</router-link>
+            <router-link to="/users" class="nav-link">Users</router-link>
+        
+          </div>
+        </div>
+         <router-view/>
+         -->
+     </div>  
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Menu from "./components/elements/HeaderPage.vue";
+import Flyer from "./components/elements/Flyer.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
+    Menu,
+    Flyer
+  },
+  name: 'Users',
+  data: function(){
+    return{
+      mensaje:'holi'
+    }
+   
+  },
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+
+
