@@ -83,7 +83,8 @@
                   </div>
                   <div class="col-md-6 xs-hide">
                     <div id="imagen">
-                      <img src="assets/images/ing_saltando.png" id="a" />
+                      <img 
+                      src="https://cersa.org.pe/assets_blackfriday/img/ing_supering.png"  />
                     </div>
                   </div>
                 </div>

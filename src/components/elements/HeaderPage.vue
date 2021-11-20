@@ -8,7 +8,7 @@
                     <div class="de-flex-col">
                       <!-- logo begin -->
                       <div id="logo">
-                        <a href="03_grey-index.html">
+                        <a href="/">
                           <img
                             alt=""
                             src="https://cersa.org.pe/assets_2/media/logos/logo.png"
