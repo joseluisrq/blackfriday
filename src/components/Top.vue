@@ -6,7 +6,18 @@
   <div class="container">
    <div class="row">
                 <div class="col-lg-12">
-                  <h2 class="style-2">CURSOS TOP</h2>
+                  <h2 class="style-2">Explora nuestros cursos</h2>
+                </div>
+
+                <div class="row">
+                   <select v-model="selectedType">
+                    <option value="Ingeniería Eléctrica">Ingeniería Eléctrica</option>
+                     <option value="Ingeniería Civil">Ingeniería Civil</option>
+                    <option value="">Todas</option>
+                   
+                  </select>                  
+                 
+                
                 </div>
              
                 <div class="row">    
@@ -89,7 +100,9 @@ export default {
         cursos_top:[],
         cursos_descuento:[],
         cursosRestantes:[],
-         search: '',
+        search: '',
+        selectedType: '',
+        //selectedSize: '',
     }
     },
     
@@ -155,10 +168,34 @@ export default {
   }, 
   computed: {
     filteredList() {
-      return this.cursos.filter(post => {
-        return post.nombre_corto.toLowerCase().includes(this.search.toLowerCase())
+      let filterType= this.selectedType
+      return this.cursos.filter(curso => {
+
+       let filtered = true
+        
+       
+        
+        if(filterType && filterType.length > 0){
+           filtered = curso.subcategoria.nombre == filterType
+        }
+        if(filtered){
+            filtered =curso.nombre_corto.toLowerCase().includes(this.search.toLowerCase())
+        }
+          return filtered
       })
-    }
+    },
+   /* computed_items: function () {
+      let filterType= this.selectedType
+        //  filterSize = this.selectedSize
+      return this.cursos.filter(function(item){
+        let filtered = true
+        if(filterType && filterType.length > 0){
+         return  filtered = item.subcategoria.nombre == filterType
+        }
+         filtered
+      })
+    }*/
+
   }
 }
 </script>
