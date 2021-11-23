@@ -2861,6 +2861,19 @@ a.btn-text {
     color: #fff;
 }
 
+.colorDescuento_oscuro {
+    background-color: #FF7300;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.colorDescuento_claro {
+    background-color: #ffd415;
+    text-align: center;
+    border-radius: 10px;  
+    color: rgb(0, 0, 0);
+}
+
 a.btn-big {
     font-size: 14px;
     color: #eceff3;
@@ -13219,7 +13232,7 @@ a.read_more i {
     margin-top: 2px;
     position: absolute;
     display: inline-block;
-    width: 50px;
+    width: 80px;
     height: auto;
     margin-left: 10px;
     z-index: 10;

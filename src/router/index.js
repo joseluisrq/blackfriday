@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../components/HelloWorld.vue'
 import Users from '../components/Users.vue'
 import Preguntas from '../components/juegos/Preguntas.vue'
+import Curso from '../components/Curso.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ Vue.use(VueRouter)
     path: '/juegaconcersa/:id',
     name: 'Preguntas',
     component: Preguntas
+  },
+  {
+    path: '/curso/:id',
+    name: 'Curso',
+    component: Curso
   },
 ]
 
