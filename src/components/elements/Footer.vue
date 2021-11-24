@@ -17,10 +17,10 @@
               <div class="col-md-6 col-sm-6 col-xs-1">
                 <div class="widget">
                     <ul>
-                        <li>Nosotros</li>
-                        <li>Contacto</li>
-                        <li>Términos y Condiciones</li>       
-                        <li>Politicas de Privacidad</li>                  
+                        <li><a href="https://cersa.org.pe/capacitaciones/?q=acercadenosotros" target="_blank" rel="noopener noreferrer">Nosotros</a> </li>
+                        <li><a href="https://cersa.org.pe/capacitaciones/?q=contact" target="_bank">Contacto</a> </li>
+                        <li> <a href="https://cersa.org.pe/TERMINOSYCONDICIONES.pdf" target="_blank" rel="noopener noreferrer">Términos y Condiciones</a> </li>       
+                        <li > <a href="https://cersa.org.pe/capacitaciones/?q=content/privacidad" target="_blank" rel="noopener noreferrer">Politicas de Privacidad</a> </li>                  
                     </ul>
                  
                   <div class="spacer-10"></div>
@@ -35,17 +35,17 @@
                 <div class="col-md-12">
                   <div class="de-flex">
                     <div class="de-flex-col">
-                      <a href="03_grey-index.html">
+                     
                         <span class="copy"
                           >&copy; Copyright 2021 - Cersa</span
                         >
-                      </a>
+                    
                     </div>
                     <div class="de-flex-col">
                       <div class="social-icons">
-                        <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>                    
-                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>                    
+                        <a href="https://www.facebook.com/Instituto.Cersa" target="_bank"><img src="https://cersa.org.pe/assets_blackfriday/img/fb.png"  target="_bank" alt=""></a>
+                        <a href="https://www.instagram.com/instituto_cersa/" target="_bank"><img src="https://cersa.org.pe/assets_blackfriday/img/is.png" target="_bank"> </a>                    
+                        <a href="https://www.linkedin.com/company/cersa" target="_bank"><img src="https://cersa.org.pe/assets_blackfriday/img/ld.png" target="_bank"></a>                    
                      
                       </div>
                     </div>

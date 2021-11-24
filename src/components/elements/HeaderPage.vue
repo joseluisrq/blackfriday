@@ -22,16 +22,14 @@
                   <div class="de-flex-col header-col-mid">
                     <!-- mainmenu begin -->
 
-                    <!-- mainmenu close -->
-                    <div class="menu_side_area mt-4">
                       <a href="https://api.whatsapp.com/send?phone=51992256742&text=Estoy%20interesado%20en%20la%20promoci%C3%B3n%20del%20Black%20Friday" 
                       target="_bank"
-                      class="btn-main btn-wallet"
-                        ><i class="icon_wallet_alt"></i
-                        ><span>Escríbenos</span></a
+                      class="btn-main btn-wallet text-center"
+                      style="font-size:18px"
+                        ><img src="https://cersa.org.pe/assets_blackfriday/img/wtsp.png" width="18px" alt=""><span> Escríbenos</span></a
                       >
-                      <span id="menu-btn"></span>
-                    </div>
+                    
+                    
                   </div>
                 </div>
               </div>

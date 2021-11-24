@@ -1,0 +1,150 @@
+[
+    {
+        "id":1,
+        "name":"PACK : Control Acuático",
+        "curso_uno":"ESTUDIO DE CUENCAS CON ARCGIS v10.8 USANDO DEMs",
+        "curso_dos":"MODELAMIENTO HIDRÁULICO CON HEC-RAS v.6.0",
+        "curso_tres":"MODELAMIENTO HIDROLÓGICO CON HEC-HMS v4.8",               
+        "img":"https://cersa.org.pe/assets_blackfriday/img/pack_1_agua.png",
+        "icon":"https://cersa.org.pe/assets_blackfriday/img/1_icon_agua.png",
+        "precio_antes":  440,
+        "precio_ahora":  220,
+        "cursos":[
+            {
+                "id":0,
+                "idcurso":604
+            },
+            {
+                "id":1,
+                "idcurso":651
+            },
+            {
+                "id":2,
+                "idcurso":617
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name":"PACK : Control Acuático",
+        "curso_uno":"DIPLOMADO EN DISEÑO, RESIDENCIA Y SUPERVISIÓN DE OBRAS HIDRÁULICAS",
+        "curso_dos":"DIPLOMADO EN DISEÑO DE PRESAS DE TIERRA Y CONCRETO 2021",
+        "img":"https://cersa.org.pe/assets_blackfriday/img/pack_2_agua.png",
+        "icon":"https://cersa.org.pe/assets_blackfriday/img/1_icon_agua.png",
+        "precio_antes":  800,
+        "precio_ahora":  400,
+        "cursos":[
+            {
+                "id":0,
+                "idcurso":604
+            },
+            {
+                "id":1,
+                "idcurso":651
+            },
+            {
+                "id":2,
+                "idcurso":617
+            }
+        ]
+    },
+    {
+        "id":3,
+        "name":"PACK : Control Tierra",
+        "img":"https://cersa.org.pe/assets_blackfriday/img/pack_3_tierra.png",
+        "icon":"https://cersa.org.pe/assets_blackfriday/img/juego.png",
+        "curso_uno":"DIPLOMADO DE ESPECIALIZACIÓN EN MECÁNICA DE ROCAS APLICADA A LA ESTABILIDAD DE TALUDES 2021",
+        "curso_dos":"GESTIÓN DE RIESGOS DE DESASTRES CON ARCGIS y QGIS",               
+        "precio_antes":  650,
+        "precio_ahora":  325,
+        "cursos":[
+            {
+                "id":0,
+                "idcurso":604
+            },
+            {
+                "id":1,
+                "idcurso":651
+            },
+            {
+                "id":2,
+                "idcurso":617
+            }
+        ]
+    },
+    {
+        "id":4,
+        "name":"PACK : Super Resistencia",
+        "curso_uno":"DIPLOMADO EN DISEÑO DE CIMENTACIONES",
+        "curso_dos":"CÁLCULO Y DISEÑO CON GEOSINTÉTICOS 2021",
+        "img":"https://cersa.org.pe/assets_blackfriday/img/pack_4_resistencia.png",
+        "icon":"https://cersa.org.pe/assets_blackfriday/img/juego.png",
+        "precio_antes":  700,
+        "precio_ahora":  350,
+        "cursos":[
+            {
+                "id":0,
+                "idcurso":604
+            },
+            {
+                "id":1,
+                "idcurso":651
+            },
+            {
+                "id":2,
+                "idcurso":617
+            }
+        ]
+        
+    },
+    {
+        "id":5,
+        "name":"PACK  : Control de Energía",
+        "curso_uno":"PANELES FOTOVOLTAICOS PARA BAJA TENSIÓN ",
+        "curso_dos":"DIPLOMADO EN CENTRALES HIDROELÉCTRICAS 2021",
+        "img":"https://cersa.org.pe/assets_blackfriday/img/pack_5_energia.png",
+        "icon":"https://cersa.org.pe/assets_blackfriday/img/juego.png",
+        "precio_antes":  650,
+        "precio_ahora":  325,
+        "cursos":[
+            {
+                "id":0,
+                "idcurso":604
+            },
+            {
+                "id":1,
+                "idcurso":651
+            },
+            {
+                "id":2,
+                "idcurso":617
+            }
+        ]
+    },
+    {
+        "id":6,
+        "name":"PACK : Control de Software",
+        "curso_uno":"METRADOS CON BIM REVIT - NAVISWORKS ",
+        "curso_dos":"ANÁLISIS, DISEÑO Y MODELAMIENTO CON ROBOT STRUCTURAL ANALYSIS PROFESSIONAL NIVEL BÁSICO - INTERMEDIO - AVANZADO",
+        "img":"https://cersa.org.pe/assets_blackfriday/img/pack_6_software.png",
+        "icon":"https://cersa.org.pe/assets_blackfriday/img/juego.png",
+        "precio_antes":  600,
+        "precio_ahora":  300,
+        "cursos":[
+            {
+                "id":0,
+                "idcurso":604
+            },
+            {
+                "id":1,
+                "idcurso":651
+            },
+            {
+                "id":2,
+                "idcurso":617
+            }
+        ]
+    }
+   
+   
+]

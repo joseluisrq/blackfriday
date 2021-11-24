@@ -11,14 +11,14 @@
                     <div class="spacer-single"></div>
                     <h6 class="wow fadeInUp data-wow-delay=.5s">
                       <span class="text-uppercase id-color-2">
-                      <img src="https://cersa.org.pe/assets_blackfriday/img/black_logo.png" alt="" />
+                      <img src="https://cersa.org.pe/assets_blackfriday/img/black_logo.png"  alt="" class="img-fluid" />
                       
                       </span>
                     </h6>
                   
                     <div class="spacer-10"></div>
                     <h1 class="wow fadeInUp" data-wow-delay=".75s">
-                      Prepárate y sé el próximo Super Ingeniero
+                      Prepárate y sé el próximo Súper Ingeniero
                     </h1>
                     <p class="wow fadeInUp lead text-white" data-wow-delay="1s">
                       ¡Con estos cursos ningún proyecto será difícil para ti!
@@ -45,7 +45,7 @@
                         >
                           <div class="de_count text-left">
                             <h3><span> +16 </span>K</h3>
-                            <h5 class="id-color">Estudiantes</h5>
+                            <h4 class="id-color text-white">Estudiantes</h4>
                           </div>
                         </div>
 
@@ -60,7 +60,7 @@
                         >
                           <div class="de_count text-left">
                             <h3><span>+ 150</span></h3>
-                            <h5 class="id-color">Cursos</h5>
+                            <h4 class="id-color text-white">Cursos</h4>
                           </div>
                         </div>
 
@@ -74,8 +74,8 @@
                           data-wow-delay="1.7s"
                         >
                           <div class="de_count text-left">
-                            <h3><span>12</span></h3>
-                            <h5 class="id-color">Paises</h5>
+                            <h3><span>17</span></h3>
+                           <h4 class="id-color text-white">Países</h4>
                           </div>
                         </div>
                       </div>

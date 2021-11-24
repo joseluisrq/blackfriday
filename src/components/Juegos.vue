@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                  <h2 class="style-2">CUPONES</h2>
-                  <h3>Aprende y gana cupones de descuento</h3>
+                  <h2 class="style-2">APRENDE Y GANA</h2>
+                  <h3>Juega y llevate cupones de descuento</h3>
                 </div>
                 <!--Menu de Juegos-->
                 <template v-for="j in juegos" >               

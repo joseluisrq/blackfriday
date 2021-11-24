@@ -4,7 +4,7 @@
               <div class="row wow fadeIn">
                 <hr />
                 <div class="col-lg-12">
-                  <h2 class="style-2">SUPER PACKs</h2>
+                  <h2 class="style-2">SÚPER PACKS</h2>
                   <h3>Incluye de 2 a más cursos que se complementan </h3>
                 </div>
 
@@ -41,16 +41,7 @@
                               Adquirir Paquete
                             </button>
                           </div>
-                          <!--
-                          <div class="nft__item_like text-white">
-                            <p>
-                              <img
-                               v-bind:src="p.icon"
-                                alt="" 
-                              />50
-                            </p>
-                          </div>
-                          -->
+                         
                           <br />
                         </div>
                       </div>

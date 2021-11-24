@@ -29,6 +29,18 @@
                                                     <h4>{{curso.sesiones}}</h4>
                                                 </a>
                                             </div>
+                                             <div class="col-lg-4 col-md-6 col-sm-6" style="background-size: cover;">
+                                                <a class="nft_attr">
+                                                    <h5>Modalidad</h5>
+                                                    <template v-if="curso.modalidad_id==2">
+                                                      <h4>Asincrónica</h4>
+                                                    </template>
+                                                    <template v-else>
+                                                      <h4> En vivo </h4>
+                                                    </template>
+                                                   
+                                                </a>
+                                            </div>
                                           
                                                                            
                                         </div>
@@ -121,7 +133,7 @@
                                         <input class="btn-main btn-lg" name="Submit" type="submit"  value="Comprar Ahora" >
                                     </form>		
                                 &nbsp;
-                                <a href="#" class="btn-main btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#place_a_bid">
+                                <a href="https://api.whatsapp.com/send?phone=51992256742&text=Estoy%20interesado%20en%20la%20promoci%C3%B3n%20del%20Black%20Friday" class="btn-main btn-lg btn-light" target="_bank">
                                  Escríbenos
                                 </a>
                                 
@@ -190,6 +202,7 @@ export default {
                         precio_carrito,
                         presentacion,
                         sesiones,
+                        modalidad_id,
                         duracion,
                         subcategoria{
                           nombre

@@ -2,32 +2,36 @@
     <div>
         <Menu/>
        <div class="spacer-double"></div>
-       <section aria-label="section" style="background-size: cover;" class="mt-4">
+       <section aria-label="section" style="background-size: cover;padding-bottom:0px !important"  class="">
            <div class="container" style="background-size: cover;">
                 <div class="row" style="background-size: cover;">
                     <div class="col-md-12" style="background-size: cover;">
                         <div class="d_profile de-flex" style="background-size: cover;">
-                            <div class="de-flex-col" style="background-size: cover;">
+                           
                                 <div class="profile_avatar" style="background-size: cover;">
-                                    <img v-bind:src="imagen" alt="">
+                                    <img v-bind:src="imagen" alt="" class="img-fluid">
                                     <i class="fa fa-check"></i>
                                     <div class="profile_name" style="background-size: cover;">
                                         <h4>
-                                           {{titutlojuego}}                                                
-                                            <span class="profile_username">@jose Lucho</span>
-                                       
-                                            <button id="btn_copy" title="Copy Text">Gana un cupón hasta de S/20 </button>
+                                           {{titutlojuego}}                                             
+                                            <br>
+                                            <br>
+                                            <span style="font-size:20px" class=" bg bg-warning p-2">Gana un cupón hasta de S/30 </span><br><br>
+
+                                                <div class="text-right">
+<button v-on:click="MostrarPreguntas()" class="btn-main">Empezar</button>
+                        </div>
                                         </h4>
+                                      
                                     </div>
+                                     
                                 </div>
-                            </div>
-                            <div class="profile_follow de-flex" style="background-size: cover;">  
-                                <div class="de-flex-col" style="background-size: cover;">
-                                    <button v-on:click="MostrarPreguntas()" class="btn-main">Empezar</button>
-                                </div>
-                            </div>
+                          
+                           
 
                         </div>
+                    
+                        
                     </div>
                 </div>
                
@@ -35,30 +39,28 @@
        </section>
        <section aria-label="section" style="background-size: cover;"  v-if="view==2">
 				<div class="container" style="background-size: cover;">
-					<div class="row" style="background-size: cover;">
-
-						<div class="col-md-12" style="background-size: cover;">
+				
+				
                             <ul class="activity-list">
                                 <template v-for=" p in preguntas_juego" >
                                    
                                         <li class="act_follow" :key="p.id">   
-                                            <div class="act_list_text" style="background-size: cover;">
-                                                <h4>{{p.pregunta}}</h4>
+                                            
+                                                <h3>{{p.pregunta}}</h3>
 
                                             <template v-for="a in p.alternativa" 
                                             >
                                                 <div  :key="a.id">
                                                    
                                                    
-                                                <input type="radio" :id="a.text" :value="a" v-model="checked[p.id]"> 
-                                                <label :for="a.text">{{a.text}}</label>
+                                                <input class="form-check-input" type="radio"  :id="a.text" :value="a" v-model="checked[p.id]"> 
+                                                <label class="form-check-label text-white fs-5 " :for="a.text">&nbsp; {{a.text}}</label>
 
                                                     <br>
                                                 </div>   
                                             </template> 
                                           
                                             
-                                            </div>
                                         
                                         </li> 
                                    
@@ -66,10 +68,7 @@
                                 <button class="btn btn-danger" v-on:click="Calificar(checked)">ENVIAR RESPUESTAS</button>                       
                             </ul>
                            
-                        </div>
-
-
-					</div>
+                     
 
 				</div>
 			</section>
@@ -78,11 +77,11 @@
 					<div class="row" style="background-size: cover;">
 
                         <div class="col-md-12" style="background-size: cover;">
-                            <span class="filter__l">Felicitaciones Ganaste un cupón de : </span>
+                            <span class="filter__l fs-2 text-white">Felicitaciones Ganaste un cupón de : </span>
                             <span class="fs-1 text-white">S/ {{cripto}}</span>
                             <br>
                             <h2>CUPÓN : {{cupon}}</h2>
-                            <div class="spacer-half" style="background-size: cover;"></div>
+                          
                             <div class="clearfix" style="background-size: cover;"></div>
                             <ul class="activity-filter">
                                 <li class="filter_by_sales">{{correctas}} Correctas</li>
@@ -92,7 +91,7 @@
                         </div>
                     </div>
                     <hr>
-                     <h1>Utiliza tu cupón en estos cursos 👇</h1>
+                     <h2>Utiliza tu cupón en estos cursos 👇</h2>
                 </div>
                
                 <Top/>
@@ -220,6 +219,7 @@ export default {
 
       },
       Calificar(respuestas){
+           window.scrollTo(0,0);
           this.checked=[]
           let criptos=0
           let correctas=0

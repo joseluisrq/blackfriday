@@ -1,46 +1,7 @@
-/* ================================================== */
 
 
-/* GIGALAND
-/* created by designesia
+@import url('https://cersa.org.pe/assets_blackfriday/css/css2.css');
 
-@charset "utf-8";
-
-/* ================================================== */
-
-
-/* import custom fonts */
-
-
-/* ================================================== */
-
-@import url('../css2.css');
-
-/* ================================================== */
-
-
-/* import fonts icon */
-
-
-/* ================================================== */
-
-@import url("../fonts/font-awesome/css/font-awesome.css");
-@import url("../fonts/elegant_font/HTML_CSS/style.css");
-@import url("../fonts/et-line-font/style.css");
-@import url("../fonts/icofont/icofont.min.css");
-
-* {
-    --body-font: "DM Sans", Helvetica, Arial, sans-serif;
-    --title-font: "DM Sans", Helvetica, Arial, sans-serif;
-}
-
-/* ================================================== */
-
-
-/* body */
-
-
-/* ================================================== */
 
 html {
     overflow-x: hidden;
@@ -867,11 +828,6 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
     margin-right: 20px;
 }
 
-#menu-btn:before {
-    font-family: FontAwesome;
-    content: "\f0c9";
-    font-size: 20px;
-}
 
 #menu-btn:hover {
     background: #fff;
@@ -4935,7 +4891,7 @@ i.font60 {
     border-radius: 10px;
     margin-bottom: 20px;
     position: relative;
-    padding-right: 100px;
+    padding-right: 10px;
 }
 .rtl .activity-list li{
     padding-right: 20px;
@@ -4967,9 +4923,6 @@ i.font60 {
      left: 30px;
 }
 
-.activity-list li.act_follow:after{
-     content: "\f00c";
-}
 
 .activity-list li.act_like:after{
      content: "\f004";
@@ -11360,7 +11313,6 @@ section.no-padding {
 .dark-scheme .owl-prev, .dark-scheme .owl-next{
 background: #161D30;
 color: #ffffff;
-border-color: rgba(255, 255, 255, .1);
 }
 
 .owl-prev:hover,.owl-next:hover{
