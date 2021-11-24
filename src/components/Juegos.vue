@@ -1,5 +1,5 @@
 <template>
-    <section aria-label="section" class="no-bottom">
+    <section aria-label="section" class="no-bottom" id="juegos">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -10,7 +10,7 @@
                 <template v-for="j in juegos" >               
                     <div class="col-lg-2 col-sm-4 col-6 mb30" :key="j.id">
                         <router-link :to="'/juegaconcersa/'+j.id"  >
-                            <a class="box-url style-2" v-on:click="sendJuego(j.id)" >
+                            <a class="box-url style-2" >
                             <img
                                 v-bind:src="j.imagen"
                                 alt=""
@@ -39,28 +39,28 @@ export default {
        [
         {
             id:0,
-            name:'Juego 01',
-            imagen: 'https://cersa.org.pe/assets_blackfriday/img/icon_agua.png'
+            name:'Control Acuático',
+            imagen: 'https://cersa.org.pe/assets_blackfriday/img/1_icon_agua.png'
         },
         {
             id:1,
-            name:'Juego 02',
-            imagen: 'https://cersa.org.pe/assets_blackfriday/img/juego.png'
+            name:'Control  Tierra',
+            imagen: 'https://cersa.org.pe/assets_blackfriday/img/2_icon_tierra.png'
         },
         {
             id:2,
-            name:'Juego 03',
-            imagen: 'https://cersa.org.pe/assets_blackfriday/img/juego.png'
+            name:'Super Resistencia',
+            imagen: 'https://cersa.org.pe/assets_blackfriday/img/3_icon_construccion.png'
         },
         {
             id:3,
-            name:'Juego 04',
-            imagen: 'https://cersa.org.pe/assets_blackfriday/img/juego.png'
+            name:'Control de Energía',
+            imagen: 'https://cersa.org.pe/assets_blackfriday/img/4_icon_energia.png'
         },
         {
             id:4,
-            name:'Juego 05',
-            imagen: 'https://cersa.org.pe/assets_blackfriday/img/juego.png'
+            name:'Control de Software',
+            imagen: 'https://cersa.org.pe/assets_blackfriday/img/5_icon_software.png'
         }
         ],
       }
@@ -70,10 +70,13 @@ export default {
     msg: String
   },
   methods:{
-    sendJuego(iidjuego){
-      this.$root.$emit("idjuego",iidjuego)
-
-    }
+   scrollToTop() {
+        window.scrollTo(0,0);
+      },
+  },
+  mounted(){  
+    this.scrollToTop()
+   
   }
 
 }

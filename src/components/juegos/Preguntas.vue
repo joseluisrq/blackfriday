@@ -9,7 +9,7 @@
                         <div class="d_profile de-flex" style="background-size: cover;">
                             <div class="de-flex-col" style="background-size: cover;">
                                 <div class="profile_avatar" style="background-size: cover;">
-                                    <img src="https://cersa.org.pe/assets_blackfriday/img/juego.png" alt="">
+                                    <img v-bind:src="imagen" alt="">
                                     <i class="fa fa-check"></i>
                                     <div class="profile_name" style="background-size: cover;">
                                         <h4>
@@ -39,10 +39,9 @@
 
 						<div class="col-md-12" style="background-size: cover;">
                             <ul class="activity-list">
-                                <template v-for=" p in preguntas_01" >
-                                    <template v-if="p.tipo==tipopreguntas">
-                                        <li class="act_follow" :key="p.id">                                          
-                                         
+                                <template v-for=" p in preguntas_juego" >
+                                   
+                                        <li class="act_follow" :key="p.id">   
                                             <div class="act_list_text" style="background-size: cover;">
                                                 <h4>{{p.pregunta}}</h4>
 
@@ -62,7 +61,7 @@
                                             </div>
                                         
                                         </li> 
-                                    </template> 
+                                   
                                 </template>     
                                 <button class="btn btn-danger" v-on:click="Calificar(checked)">ENVIAR RESPUESTAS</button>                       
                             </ul>
@@ -93,6 +92,8 @@
                         </div>
                     </div>
                 </div>
+                <h1>Utiliza tu copón aquí 👇</h1>
+                <Top/>
             </section>
            
       
@@ -101,230 +102,139 @@
 </template>
 
 <script>
+import datos from "../../assets/json/preguntas.json";
 import Menu from "../elements/HeaderPage.vue";
 import Footer from "../elements/Footer.vue";
+import Top from "../Top.vue";
 export default {
   name: 'Preguntas',
   data: function(){
     return{
         checked:[],       
-      view:1,
-      cupones_5:[
-         {
-           id:0,
-           codigo: 'CUPO05'
-         },
-         {
-           id:1,
-           codigo: 'CUPO05'
-         }
-      ],
-      cupones_10:[
-          {
-           id:0,
-           codigo: 'CUPO05'
-         },
-         {
-           id:1,
-           codigo: 'CUPO05'
-         }
-      ],
-      cupones_15:[
-          {
-           id:0,
-           codigo: 'CUPO05'
-         },
-         {
-           id:1,
-           codigo: 'CUPO05'
-         }
-      ],
-      cupones_20:[
-          {
-           id:0,
-           codigo: 'CUPO05'
-         },
-         {
-           id:1,
-           codigo: 'CUPO05'
-         }
-      ],
-      preguntas_01:[
-          {
-              id :0,
-              pregunta:'Que color es el agua?',
-              tipo:0,
-              alternativa:[
-                {
-                    id:0,
-                    text:'Azul',
-                    estado:false
-                },
-                {
-                    id:1,
-                    text:'Verde',
-                    estado:false
-                },
-                 {
-                    id:2,
-                    text:'Es Incoloro',
-                    estado:true
-                }
-               
-              ]
-          },
-          {
-              id: 1,
-              pregunta:'De que Color es el caballo rojo de San martin',
-              tipo:0,
-              alternativa:[
-                {
-                    id:0,
-                    text:'Azul',
-                    estado:false
-                },
-                {
-                    id:1,
-                    text:'Verde',
-                    estado:false
-                },
-                {
-                    id:2,
-                    text:'Rojo',
-                    estado:true
-                },
-                 {
-                    id:3,
-                    text:'Amrillo',
-                    estado:true
-                }
-              ]  
-          },
-               {
-              id: 2,
-              pregunta:'De que Color es el caballo rojo de San martin',
-              tipo:0,
-              alternativa:[
-                {
-                    id:0,
-                    text:'Azul',
-                    estado:false
-                },
-                {
-                    id:1,
-                    text:'Verde',
-                    estado:false
-                },
-                {
-                    id:2,
-                    text:'Rojo',
-                    estado:true
-                }
-              ]  
-          },
-            {
-              id: 3,
-              pregunta:'Esta es una segunda pregunta?',
-              tipo:1,
-              alternativa:[
-                {
-                    id:0,
-                    text:'Esta es la alternativa tres'
-                },
-                {
-                    id:1,
-                    text:'Esta es la alternativa cuatro'
-                }
-              ]  
-          },
-          
-            {
-              id: 4,
-              pregunta:'Esta es una segunda pregunta?',
-              tipo:2,
-              alternativa:[
-                {
-                    id:0,
-                    text:'Esta es la alternativa tres'
-                },
-                {
-                    id:1,
-                    text:'Esta es la alternativa cuatro'
-                }
-              ]  
-          },
-          
-      ],
+      view:1, 
+      preguntas_juego:[]      ,  
+      
       respuesta_0:'',
       respuesta_1:'',
       respuesta_2:'',
       respuesta_3:'',
 
       titutlojuego:'',
-      tipopreguntas:0,
+      tipopreguntas:800,
 
       correctas:0,
       incorrectas:0,
       cripto:0,
-      cupon:''
+      cupon:'',
+      imagen:'',
+      idjuego:781
     }   
   },
   components: {
       Menu,
-      Footer
+      Footer,
+      Top
     },
   mounted(){   
-     this.mensaje = this.$route.params.id;
-     this.Lista_de_Preguntas()
+     //this.mensaje = this.$route.params.id;
+     //this.$route.params.id;
+     this.idjuego=this.$route.params.id
+     this.Lista_de_Preguntas(this.idjuego)
+    
+    
+     
   },
   methods:{
+      Cargar_Preguntas(){
+            let pro=[]
+            var contador=0
+           
+            datos.map((item) => {
+                if(item.tipo==this.idjuego) {                     
+                    pro[contador]=item    
+                    contador++;
+                }
+               
+                   
+            })
+           // console.log(pro)
+            for (let index = 0; index <= 2; index++) {              
+                this.preguntas_juego[index]=pro[Math.floor(Math.random()*((pro.length)+0))]
+                
+            }
+       //  console.log(pro)
+       // console.log(this.preguntas_juego)
+      },
       MostrarPreguntas(){
           this.view=2
           this.checked=[]
       },
-      Lista_de_Preguntas(){
-          if( this.$route.params.id==0)
+      Lista_de_Preguntas(idcurso){
+          
+          if( idcurso==0)
           {
+
             this.view=true
-            this.titutlojuego='Este es el Juego 01'
+            this.titutlojuego='Control Acuático'
+            this.imagen='https://cersa.org.pe/assets_blackfriday/img/1_icon_agua.png'
             this.tipopreguntas=0
+            
           }
-          else if(this.$route.params.id==1)
+          else if(idcurso==1)
           {
-            this.titutlojuego='Este es el Juego 02'
+            this.titutlojuego='Control Tierra'
             this.view=true
+            this.imagen='https://cersa.org.pe/assets_blackfriday/img/2_icon_tierra.png'
              this.tipopreguntas=1
           }
-          else if(this.$route.params.id==2)
+          else if(idcurso==2)
           {
-            this.titutlojuego='Este es el Juego 03'
+            this.titutlojuego='Super Resistencia'
             this.view=true
+            this.imagen='https://cersa.org.pe/assets_blackfriday/img/3_icon_construccion.png'
              this.tipopreguntas=2
           }
-          else if(this.$route.params.id==3)
+          else if(idcurso==3)
           {
-            this.titutlojuego='Este es el Juego 04'
+            this.titutlojuego='Control de Energía'
             this.view=true
+            this.imagen='https://cersa.org.pe/assets_blackfriday/img/4_icon_energia.png'
              this.tipopreguntas=3
           }
-          else if(this.$route.params.id==4)
+          else if(idcurso==4)
           {
-            this.titutlojuego='Este es el Juego 05'
+            this.titutlojuego='Control de Software'
             this.view=true
+            this.imagen='https://cersa.org.pe/assets_blackfriday/img/5_icon_software.png'
              this.tipopreguntas=4
           }
           else{
-               this.view=true
+               this.view=false
+               this.tipopreguntas=700
+               console.log("El jeugo no existe")
+             
           }
+          this.Cargar_Preguntas()
+
       },
       Calificar(respuestas){
+          this.checked=[]
           let criptos=0
           let correctas=0
           let incorrectas=0
-          for (var i = 0; i < respuestas.length; i++) 
+          let contador=0
+
+         respuestas.map((item) => {
+             console.log(item)
+             if(item.id!=null)
+             {this.checked[contador]=item 
+              contador++}         
+        })
+
+         for (var i = 0; i < this.checked.length; i++) 
           {
-            if(respuestas[i].estado==true){
-                criptos=criptos+5;
+            if(this.checked[i].estado==true){
+                criptos=criptos+10;
                 correctas=correctas+1;
             }
             else{
@@ -333,16 +243,15 @@ export default {
         }
         if(criptos==0){
             this.cupon='CERSA0'
-        }else if(criptos==5){
-             this.cupon='CERSA0'
         }else if(criptos==10){
-            this.cupon='CERSA10'
-        }
-        else if(criptos==15){
-             this.cupon='CERSA15'
-        }
-        else if(criptos==20){
+             this.cupon='CERSA10'
+        }else if(criptos==20){
             this.cupon='CERSA20'
+        }
+        else if(criptos==30){
+             this.cupon='CERSA30'
+        }else{
+            console.log("Error")
         }
 
         this.correctas=correctas

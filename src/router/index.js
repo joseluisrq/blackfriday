@@ -4,6 +4,8 @@ import Home from '../components/HelloWorld.vue'
 import Users from '../components/Users.vue'
 import Preguntas from '../components/juegos/Preguntas.vue'
 import Curso from '../components/Curso.vue'
+import Detallepack from '../components/Detallepack.vue'
+
 
 Vue.use(VueRouter)
 
@@ -28,6 +30,11 @@ Vue.use(VueRouter)
     name: 'Curso',
     component: Curso
   },
+  {
+    path: '/detalle/:id',
+    name: 'Detallepack',
+    component: Detallepack
+  }
 ]
 
 const router = new VueRouter({

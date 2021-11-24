@@ -25,7 +25,7 @@
                     </p>
                     <div class="spacer-10"></div>
                     <a
-                      href="03_grey-explore.html"
+                      href="#juegos"
                       class="btn-main wow fadeInUp lead"
                       data-wow-delay="1.25s"
                       style="font-size: 30px"

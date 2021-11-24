@@ -2,7 +2,7 @@
 <div>
  
 
-  <section section id="section-collections" class="pt30 pb30">
+  <section section id="cursos" class="pt30 pb30">
   <div class="container">
    <div class="row">
                 <div class="col-lg-12">
@@ -10,7 +10,7 @@
                 </div>
              
                 <div class="row">    
-                  <div class="col-md-12">
+                  <div class="col-md-12 p-2">
                     <div class="row">
                       <div class="col-md-7">
                           <div class="search-wrapper  text-center">
@@ -46,6 +46,8 @@ Cursos Talleres Presencialesa</option>
                           </select> 
                       </div>
                     </div>
+                    <hr>
+
                   </div>
                     
                  

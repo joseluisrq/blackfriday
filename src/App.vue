@@ -11,13 +11,7 @@
 
   export default {
     
-    name: 'Users',
-    data: function(){
-      return{
-        mensaje:'holi'
-      }
-    
-    },
+    name: 'App',
   }
 </script>
 

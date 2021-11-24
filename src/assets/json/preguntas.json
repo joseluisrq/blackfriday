@@ -1,0 +1,2706 @@
+[
+    {
+        "id": 0,
+        "pregunta": "¿Cuál es la diferencia entre  hídrico, hidráulico e hidrológico?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "No hay mucha diferencia, se pueden utilizar como sinónimos.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "El primer término hace referencia al agua como elemento. El segundo y tercer término hacen referencia al estudio general del agua.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "El primero hace referencia a todo lo relativo al agua, el segundo a las propiedades y distribución del agua, y el tercero al estudio del movimiento y equilibrio del agua.",
+                "estado":true
+            }
+
+        ]
+    },
+    {
+        "id": 1,
+       "pregunta": "Una válvula check permite el paso de:",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Ambos sentidos.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Un solo sentido.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Depende de la válvula.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 2,
+       "pregunta": "La presión de una bomba centrífuga depende:",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "De la altura.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Del voltaje.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "De la velocidad de la bomba.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 3,
+       "pregunta": "¿Cómo se clasifican los impactos al sistema de aguas subterráneas?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Impactos a la calidad e impactos a la cantidad de aguas subterráneas.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Impactos a la calidad e impactos de presión.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Impactos a la cantidad de aguas subterráneas e impactos de presión.",
+                "estado":false
+            }
+
+        ]
+    },
+
+    {
+        "id": 4,
+       "pregunta": "¿Cuáles son los ensayos hidráulicos para un acuífero?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Las pruebas de bombeo, las pruebas de obturados y las pruebas de slug",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Las pruebas de bombeo y las pruebas de obturados.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Las pruebas de bombeo y las pruebas de slug",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 5,
+       "pregunta": "¿Cuál es la última versión de HEC RAS?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "HEC-RAS 6.1",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "HEC-RAS 4.1",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "HEC-RAS 5v.1",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 6,
+       "pregunta": "¿Qué variable se usa para clasificar el flujo de permanente y no permanente?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Tiempo.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Espacio.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Densidad.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 7,
+       "pregunta": "¿Qué variable se usa para clasificar el flujo uniforme y no uniforme?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Espacio.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Tiempo.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Presión.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 8,
+       "pregunta": "¿Cuál es la norma del Reglamento Nacional de Edificaciones que rige la captación y conducción de agua para consumo humano?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "La norma es OS. 011.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "La norma es OS. 010.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "La norma es OS. 009.",
+                "estado":false
+            }
+        ]
+    },
+
+    {
+        "id": 9,
+       "pregunta": "¿Cuáles son los tipos de válvulas hidraúlicas?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Válvulas de caudal y de presión.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Válvulas de caudal y dirección.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Válvulas de control, de dirección, de caudal y de presión.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 10,
+       "pregunta": "La superficie de un líquido en contacto con el aire es:",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Cóncava.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Convexa Plana.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Cóncava Convexa Plana.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 11,
+       "pregunta": "¿Qué es la hidráulica?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Una herramienta.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Es una rama de la física que se encarga de estudiar las propiedades mecánicas de los fluidos.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Es la rama de la mecánica de fluidos que estudia los fluidos en estado de equilibrio.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 12,
+       "pregunta": "¿Qué estudia la hidrodinámica?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Los líquidos en reposo.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "LÍquidos en movimiento.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Líquido incomprensible.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 13,
+       "pregunta": "¿Qué pasaría si no existiera la presión atmosférica?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "La vida no existiera.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Los objetos estarían flotando.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "El tiempo de vida de un ser humano se reduciría a menos del 50%.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 14,
+       "pregunta": "La mecánica de fluidos es:",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "La ciencia que analiza el comportamiento de los fluidos sobre una base física.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "La ciencia que analiza el comportamiento de los fluidos sobre una base puramente matemática. ",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "La ciencia que analiza el comportamiento de los fluidos sobre una base empírica. ",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 15,
+       "pregunta": "Las válvulas de retención:",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Reducen las pérdidas de carga.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Cortan el flujo de agua e impiden el flujo de agua en sentido inverso.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Impiden el flujo de agua en sentido inverso.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 16,
+       "pregunta": "Las líneas de corriente son:",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Líneas imaginarias, discontinuas y tangenciales al vector velocidad.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Líneas imaginarias, continuas y tangenciales al vector velocidad. ",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Líneas imaginarias, continuas y perpendiculares al vector velocidad.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 17,
+       "pregunta": "Una cuenca:",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Es un territorio cuyas aguas fluyen todas hacia un mismo río, lago o mar.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Solo abarca ecosistemas acuáticos (ríos, lagos, humedales, etc.)",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Solo abarca ecosistemas terrestres (selvas, bosques, matorrales, pastizales, manglares, entre otros)",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 18,
+       "pregunta": "Una cuenca hidrográfica:",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Es una unidad geográfica e hidrológica, formada por un río principal y todos sus territorios asociados entre el origen del río y su desembocadura.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Se caracteriza porque sus aguas no desembocan en el mar sino en algún sistema de agua estancada como lagos o lagunas.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Siempre tiene desembocadura.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 19,
+       "pregunta": "La hidrostática:",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Estudia la distribución, pero no la circulación del agua.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Es el estudio de las aguas subterráneas.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Es el estudio de los fluidos en reposo.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 20,
+       "pregunta": "¿Dónde se acumulan las aguas subterráneas?",
+        "tipo": 0,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "En los poros de las plantas que están al borde de los lagos, lagunas, ríos, etc.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "En la vegetación densa.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "En el conjunto del estrato geológico.",
+                "estado":true
+            }
+        ]
+    },
+
+    {
+        "id": 21,
+       "pregunta": "¿Quién fue el desarrollador de la teoría de la deriva continental?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Alfred Wegener.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Charles Lyell.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Georges Cuvier.",
+                "estado":false
+            }
+        ]
+    },
+
+    {
+        "id": 22,
+       "pregunta": "¿Qué es el Canon Minero?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "El 30% del Impuesto a la Renta que el estado recibe por la explotación económica de los recursos mineros.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "El 50% del Impuesto a la Renta que el estado recibe por la explotación económica de los recursos mineros.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "El 70% del Impuesto a la Renta que el estado recibe por la explotación económica de los recursos mineros.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 23,
+       "pregunta": "¿Qué significa mina a cielo abierto o tajo abierto?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "También llamada mina de superficie, se encuentra a nivel superficial de la corteza terrestre adoptando la forma de una gran fosa.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Consiste en extraer minerales/materiales económicamente valiosos mediante la construcción.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Consiste en extraer minerales/materiales económicamente valiosos mediante la construcción de túneles.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 24,
+       "pregunta": "El proceso repetitivo de optimización del sistema de gestión medio ambiental, se le denomina:",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Mejora progresiva.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Mejora continua.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Compromiso ambiental.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 25,
+       "pregunta": "¿Cuáles son los tipos de permeabilidad?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Absoluta, conductiva, relativa.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Absoluta, efectiva, relativa.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Absoluta, nula, relativa.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 26,
+       "pregunta": "¿Dónde se está llevando a cabo la minería a cielo abierto más moderna?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Latinoamérica, África y Asia.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Latinoamérica y África.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Latinoamérica y Asia.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 27,
+       "pregunta": "¿Qué países lideran en la producción de oro?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "China, Sudráfrica, estados Unidos.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "China, Rusia, Australia.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "China, India, Perú",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 28,
+       "pregunta": "¿Para qué se utiliza el cianuro en la industria minera?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Porque otorga brillo a los minerales extraídos.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Para extraer metales de las minas y como compuesto de flotación.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Para el procesamiento de aguas de un yacimiento.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 29,
+       "pregunta": "¿Qué es un dique de cola?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Adición de enormes cantidades de químicos tóxicos y agua a la mina triturada.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Estructura que no puede ser de tierra ni piedra.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Sistema permite recuperar el 0.5% del agua utilizada en el proceso productivo.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 30,
+       "pregunta": "Los tres tipos principales de rocas son:",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Ignea, sedimentaria y basáltica.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Ignea, conglomerado y metamórfica.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Ignea, sedimentaria y metamórfica.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 31,
+       "pregunta": "¿Qué tiene de especial, geológicamente hablando, el cabo de Tres Puntos?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Cuenta con el supervolcán en escudo más antiguo del mundo.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Es el lugar que presenta coordenadas cero grados por cero grados.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Es la reserva de litio más grande del mundo.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 32,
+       "pregunta": "¿Cómo se denomina un valle profundo y estrecho que ha sido tallado por la erosión?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Cañón.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Acantilado.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Meandro.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 33,
+       "pregunta": "¿Qué aspectos abarca el término Gestión?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Estrategia, ejecución, cultura y estructura.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Ejecución, riesgo, cultura, producción.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Recursos, diligencia, evaluación y cultura.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 34,
+       "pregunta": "Las rocas sedimentarias se clasifican en:",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Únicamente orgánicas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Siempre dietríticas y a veces orgánicas.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Dietríticas, químicas y orgánicas.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 35,
+       "pregunta": "Uno de los principios de la Gestión Ambiental es:",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Asignar los recursos necesarios para implantar un sistema de gestión.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Evitar que la emisión de efluentes de una actividad sobrepase la capacidad de recepción o asimilación del medio ambiente.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "La disminución de costos para desarrollar una buena gestión.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 36,
+       "pregunta": "La aplicación de una buena Gestión Ambiental en una empresa tiene muchas ventajas. Estas ventajas son:",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Legales, Tecnológicas, Competitivas, Ejecutivas y Económicas.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Ecológicas, Económicas y Administrativas.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Legales, Imagen, Financieras, Gestión y Marketing.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 37,
+       "pregunta": "Para la contaminación por metales, indique las afirmación que considere verdadera:",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "El umbral de toxicidad es prácticamente el mismo para todos los metales.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "La toxicidad de un metal depende no solo de su naturaleza sino del estado químico en que se encuentre.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Los metales pueden provocar efectos acumulativos.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 38,
+       "pregunta": "¿Qué son las chimeneas de hadas?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Una formación hecha de roca blanca cuyo origen es sedimentario.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Una de las cumbres más famosas de los Picos de Europa.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Una formación que puede adoptar una forma temporal o permanente dependiendo de su naturaleza.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 39,
+       "pregunta": "No es un tipo de contaminación:",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Contaminación Eléctrica.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Contaminación Radioactiva.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Contaminación del suelo.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 40,
+       "pregunta": "Ordena de mayor a menor profundidad las siguientes capas de la tierra explicadas por el modelo dinámico:",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Litosfera, Endosfera, Mesosfera.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Endosmera, Mesosfera, Litosfera.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Mesosfera, Litosfera, Endosfera.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 41,
+       "pregunta": "Sobre la expansión del fondo oceánico, marca la alternativa falsa: ",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Las rocas oceánicas más jóvenes están junto a las dorsales oceánicas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Los polos magnéticos terrestres se han invertido varias veces.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Los sedimentos de las zonas oceánicas tienen gran espesor en todo el fondo marino.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 42,
+       "pregunta": "¿Cómos se llaman las cordilleras de gran altura que se sitúan en el fondo de los mares y océanos que están formadas por magma?",
+        "tipo": 1,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Fosas oceánicas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Dorsales oceánicas.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Plataformas continentales.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 43,
+       "pregunta": "Los acabados que ofrece la obra blanca son:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Cerámica, estuco, yeso y cielo raso.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Estuco, cubierta y ventanas.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Batería sanitaria, fachada y ventanas.",
+                "estado":false
+            }
+        ]
+    },
+
+    {
+        "id": 44,
+       "pregunta": "¿Cuál es el orden como se realizan las fases de una construcción?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Obra gris, obra negra, obra blanca.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Obra blanca, obra gris, obra negra.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Obra negra, obra gris, obra blanca.",
+                "estado":true
+            }
+        ]
+    },
+
+    {
+        "id": 45,
+       "pregunta": "Seleccione las clasificaciones de los tipos de materiales de construcción:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Aglutinantes, pétreos, cerámicos, vítreos, madera, metálicos y compuestos.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Compuestos, aglutinantes, pétros, madera, metálicos, cerámicos y vidrios.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Derivados de petróleo, cerámicos, madera, aglutinantes, compuestos metálicos y vítreos.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 46,
+       "pregunta": "¿A qué grupo de materiales pertenecen respectivamente el hormigón, ladrillo y aluminio?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Cerámicos, compuestos y metálicos.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Compuestos, cerámicos y metálicos.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Metálicos, cerámicos y compuestos.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 47,
+       "pregunta": "Las vigas aéreas son elementos horizontales que sostienen el entrepiso y transmiten las cargas de la edificación a:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Las columnas.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Las zapatas.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "La cimentación.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 48,
+       "pregunta": "¿Qué trabajo realizan las vigas de cimentación en una construcción?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Soportar y distribuir las cargas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Evitar y disminuir los asentamientos ante el sismo.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Ambas son correctas.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 49,
+       "pregunta": "¿Qué criterio define la diferencia fundamental entre una cimentación profunda y una superficial?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "La profundidad de desplante.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Las dimensiones de la cimentación.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Las cargas a soportar.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 50,
+       "pregunta": "¿Cuál de las opciones es uno de los tres requisitos claves para construir una vivienda segura?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Buenas zanjas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "La calidad de los materiales.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "La distribución del terreno.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 51,
+       "pregunta": "¿Cuándo resulta conveniente diseñar y construir una zapata corrida?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Cuando el suelo es de tipo arcilloso, limoso o semi rocoso.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Cuando más de dos columnas adyacentes se encuentran muy unidas.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Todas las anteriores.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 52,
+       "pregunta": "¿Cuál de las siguientes mezclas nos da un concreto ciclópeo?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Cemento, agua y arena.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Cemento, hormigón, agua y piedra.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Cemento, piedra y agua.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 53,
+       "pregunta": "Las características técnicas de las redes de agua y desagüe están definidas en:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Planos de instalaciones eléctricas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Planos de arquitectura.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Planos de instalaciones sanitarias.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 54,
+       "pregunta": "Las columnas de confinamiento tienen que ser construidas bajo lo especificado en:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Los planos estructurales.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Los comentarios del maestro de obra.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Los planos de instalaciones eléctricas.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 55,
+       "pregunta": "¿Cuál es la diferencia entre una pila o cilindro y un pilote?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "La relación largo-ancho.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "El método de hincamiento.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Solamente el largo.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 56,
+       "pregunta": "¿Qué criterio fundamentalmente define la utilización de una cimentación profunda o superficial?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Las propiedades físico-mecánicas del suelo soportante.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "El costo de construcción.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "El método de compactación del suelo.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 57,
+       "pregunta": "Los cimientos corridos son aquellos que:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Reciben la carga de más de una columna.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Reciben la carga de la mampostería.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Reciben la carga de todas las columnas de la edificación.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 58,
+       "pregunta": "Son tipos de construcción que se colocan en la parte superior de los muros y entre las columnas:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Techos.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Vigas soleras.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Calzaduras.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 59,
+       "pregunta": "¿Qué es la albañería confinada?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Técnica para confinar columnas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Técnica para construir una vivienda.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Técnica para derrumabar muros.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 60,
+       "pregunta": "¿Cómo se llaman los elementos verticales que trabajan a compresión en una estructura entramada?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Pilar.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Viga.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Bovedilla.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 61,
+       "pregunta": "En la cimentación de un edificio influye directamente:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "El tipo de terreno y las cargas que tenga que soportar.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "El tipo de estructura construida.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Los materiales de la estructura.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 62,
+       "pregunta": "La Torre Eiffel es una estructura:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Entramada.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "De barras.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Geodésica.",
+                "estado":false
+            }
+        ]
+    },
+
+
+    {
+        "id": 63,
+       "pregunta": "Cuando una estructura no vuelca se dice que es:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Estable.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Rígida.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Resistente.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 64,
+       "pregunta": "De los siguientes elementos estructurales indica, ¿cuáles están sometidos a flexión?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Viga y tabla de trampolín.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Pata de una mesa y pilar de un edificio.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Ninguno.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 65,
+       "pregunta": "Los edificios muy altos tienen varias plantas bajo tierra, ¿con qué finalidad estructural?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Para aumentar su estabilidad.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Para tener más plazas de garaje.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Para soportar mejor los esfuerzos de tracción.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 66,
+       "pregunta": "A la hora de diseñar una estructura debemos tener en cuenta, principalmente:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Sus cualidades estéticas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Su costo.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Su estabilidad y la capacidad para soportar las cargas sin romperse ni deformarse excesivamente.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 67,
+       "pregunta": "El centro de gravedad es útil para:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Estudiar la resistencia de un objeto.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Estudiar la estabilidad de un objeto.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Estudiar la rigidez de un objeto.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 68,
+       "pregunta": "¿Cómo se llaman las piezas que componen un arco?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Dovelas.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Perfiles.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Cúpulas.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 69,
+       "pregunta": "Los tirantes resisten bien los esfuerzos de:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Tracción.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Compresión.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Flexión.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 70,
+       "pregunta": "El centro de gravedad es:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "La parte del objeto que se encuentra justo en medio.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "El punto del objeto que contiene toda su masa.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "El centro geométrico de la base del objeto.",
+                "estado":false
+            }
+        ]
+    }, {
+        "id": 71,
+       "pregunta": "Cuando a una viga o columna de hormigón se le introducen barras de acero, decimos que se trata de:",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Hormigón armado.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Hormigón acerado.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Cimientos.",
+                "estado":false
+            }
+        ]
+    }, {
+        "id": 72,
+       "pregunta": "¿Cómo se llama a las tensiones internas que sufren los cuerpos de una estructura cuando son sometidas a fuerzas externas?",
+        "tipo": 2,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Cargas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Esfuerzos.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Pesos.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 73,
+       "pregunta": "¿Qué fuentes naturales usan las energías limpias?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Agua y Sol.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Viento y Agua.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Minerales y Carbón.",
+                "estado":false
+            }
+        ]
+    },
+
+    {
+        "id": 74,
+       "pregunta": "La energía solar presenta grandes ventajas, una de ellas es:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Es una fuente energética inagotable.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Depende de la producción de agua.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Es una fuente energética agotable.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 75,
+       "pregunta": "La energía mareomotriz se obtiene de:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "De los ojos de agua.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "De las mareas, este movimiento se utiliza para que la marea mueva las turbinas que mueve el generador para producir electricidad.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Del movimiento de agua mueve el generador para producir electricidad.",
+                "estado":false
+            }
+        ]
+    }, {
+        "id": 76,
+       "pregunta": "¿Qué diferencia hay entre biomasa y biocombustible?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "No hay ninguna diferencia entre ambas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "La biomasa se refiere a la materia orgánica como la madera y los desechos animales / vegetales. Y el biocombustible se extrae de la materia orgánica para crear combustibles.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "El biocombustible se refiere a la materia orgánica como la madera y los desechos animales / vegetales. Y la biomasa se extrae de la materia orgánica para crear combustibles.",
+                "estado":false
+            }
+        ]
+    }, {
+        "id": 77,
+       "pregunta": "Los combustibles fósiles vienen de:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Plantas y animales que existían hace mucho tiempo.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Restos de dinosaurios.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Ninguna es correcta.",
+                "estado":false
+            }
+        ]
+    }, {
+        "id": 78,
+       "pregunta": "Es la energía que se obtiene de fuentes naturales virtualmente inagotables:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Renovables.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Energía No Renovable.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Combustibles.",
+                "estado":false
+            }
+        ]
+    }, {
+        "id": 79,
+       "pregunta": "Podemos definir la energía como:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "La capacidad de hacer una fuerza.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Lo que nos permite tener electricidad.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "La capacidad de producir un trabajo.",
+                "estado":true
+            }
+        ]
+    }, {
+        "id": 80,
+       "pregunta": "¿Cuál de las siguientes opciones es un ejemplo de un recurso no renovable?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Hojas secas.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Gas natural.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Radiación solar.",
+                "estado":false
+            }
+        ]
+    }, {
+        "id": 81,
+       "pregunta": "La mayoría de las centrales de energía producen electricidad con dos componentes esenciales:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Una turbina y un motor.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Calentando agua y un generador.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Una turbina y un generador.",
+                "estado":true
+            }
+        ]
+    }, {
+        "id": 82,
+       "pregunta": "La energía se puede convertir de una forma en otra. Esta propiedad significa que la energía:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Se transfiere.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Se almacena.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Se transforma.",
+                "estado":true
+            }
+        ]
+    }, {
+        "id": 83,
+       "pregunta": "La principal fuente de energía para todos los procesos que tienen lugar en nuestro planeta es:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Viento.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Agua.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Sol.",
+                "estado":true
+            }
+        ]
+    }, {
+        "id": 84,
+       "pregunta": "¿Qué es lo que convierte los animales y plantas en descomposición en combustibles fósiles?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "El calor y la presión.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Hielo y energía solar.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "El sol y las piedras.",
+                "estado":false
+            }
+        ]
+    }, {
+        "id": 85,
+       "pregunta": "¿Qué convierten las reacciones atómicas de fusión nuclear producidas continuamente en el núcleo del Sol?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Oxígeno en hidrógeno.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Hidrógeno en Helio",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Hidrógeno en oxígeno.",
+                "estado":false
+            }
+        ]
+    }, {
+        "id": 86,
+       "pregunta": "¿Cuál de estas fórmulas es la ley de OHM?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "V = R / I",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "R = V x I",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "I = V / R",
+                "estado":true
+            }
+        ]
+    }, {
+        "id": 87,
+       "pregunta": "Las fuentes de energía renovable no emiten gases de efecto invernadero:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Verdadero.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Falso.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 88,
+       "pregunta": "¿Cuáles energías son no renovables?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Petróleo, carbón, gas natural, geotérmica, hidráulica.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Petróleo, carbón, gas natural, nuclear, rsu, biomasa.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Eólica, solar, maremotríz, geotérmica, hidraúlica.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 89,
+       "pregunta": "¿Qué significa que a una energía se le cataloge como altenativa?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Que es una energía que puede ser la reemplazante de otra que sea convencional.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Que es una energía que se encuentra presente en todo el mundo.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Que es una energía considerada no contaminante.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 90,
+       "pregunta": "¿Cuáles energías son renovables?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Eólica, solar, maremotriz, geotérmica, hidraúlica.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Petróleo, carbón, gas natural, nuclear.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Eólica, petróleo, solar, carbón, nuclear.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 91,
+       "pregunta": "¿Cuáles energías son alternativas o no convencionales?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Eólica, solar, geotérmica, maremotríz, rsu, biomasa, nuclear.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Carbón, hidraúlica, petróleo, gas natural.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Carbón, geotérmica, patróleo, nuclear, gas natural.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 92,
+       "pregunta": "¿Qué significa que una energía sea considerada convencional?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Que es una energía contaminante y afecta a la capa de ozono.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Que es ocupada esporádicamente y no tiene acceso toda la sociedad.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Que es ocupada cotidianamente y por la mayoria de la sociedad.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 93,
+       "pregunta": "¿Qué significa que una energía sea no renovable?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Que se puede autoregenerar y se le considera inagotable.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Que no se puede autoregenerar, se ocupa una vez y se gasta.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Que puede autoregenerarse y se gasta en grandes cantidades.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 94,
+       "pregunta": "¿Qué significa que una energía sea renovable?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Que no sirve para generar otro tipo de energía.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Que puede autoregenerarse y que se le considera inagotable.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Que son las llamadas energias alternativas.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 95,
+       "pregunta": "Además de los paneles solares, ya existen en el mercado otras soluciones para la recogida de energía solar en nuestra casa. ¿De qué estamos hablando?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Trepadoras solares, genéticamente modificadas, que permiten la recogida de energía solar.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Telas solares, que transforman el tejado de una casa en un generador de energía, manteniendo la apariencia de un tejado tradicional.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Triciclos solares, que al ser utilizados por los niños para jugar en el patio, abastecen la vivienda de energía solar.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 96,
+       "pregunta": "¿Qué es la biomasa?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Una parte de la biología.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Materia orgánica creada en procesos naturales.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Combustible no fósil.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 97,
+       "pregunta": "La biomasa se genera a partir de:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Residuos agrícolas y forestales.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Residuos animales y residuos sólidos urbanos.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Ambas son correctas.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 98,
+       "pregunta": "¿Cuáles son las partes de un aerogenerador?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Cimientos, torre, chasis y buje.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Torre, tornillos y cimientos.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Chasis, tornillos y tuercas.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 99,
+       "pregunta": "El biogas puede sustituir a:",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Combustibles fósiles.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Gas natural.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Electricidad.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 100,
+       "pregunta": "¿La energía solar puede ser recogida por la noche?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "No, la energía solar sólo puede recogerse durante el día. En condiciones óptimas cuando el cielo está limpio y sin nubes, pero también en períodos de cielo nublado.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Sí, la energía solar también puede ser recogida por la noche, pero solo en las noches de luna llena.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Sí, la energía solar se recoge durante el día o la noche, aunque durante el día sea más favorable.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 101,
+       "pregunta": "Es posible viajar en aviones únicamente movidos a energía solar. ¿Verdadero o falso?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Verdadero. Es posible, aunque la tecnología aún no se ha generalizado. Bertrand Piccard fue el primer piloto en volar un avión a motor a energía solar a principios de 2016.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Falso. No es posible, pues la energía producida a través de la luz solar no es tan potente como la que se genera a través de combustibles fósiles.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Falso. No es posible porque la tecnología necesaria aún no ha sido desarrollada.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 102,
+       "pregunta": "¿Cómo se llama la energía procedente de la madera, de los residuos de las cosechas y la basura del arbolado urbano?",
+        "tipo": 3,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Biodegradable.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Bioreciclable.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Biomasa.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 103,
+       "pregunta": "¿Qué es el Testing de Software?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Uno de los programas más actualizado.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Es la realización de pruebas sobre el mismo, con el fin de obtener información acerca de su calidad.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Conjunto de elementos físicos o materiales que constituyen una computadora o un sistema informático.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 104,
+       "pregunta": "¿Qué es un software?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Conjunto de programas y rutinas que permiten a la computadora realizar determinadas tareas.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Conjunto de elementos físicos o materiales que constituyen una computadora o un sistema informático.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Es un conjunto de computadoras para la comunicación entre distintos dispositivos",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 105,
+       "pregunta": "En terminología informática el software de sistema, denominado también software de base, consiste en un software que sirve para controlar e interactuar con el sistema operativo, proporcionando control sobre el hardware y dando soporte a otros programas; en contraposición del llamado software de aplicación.",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Verdadero.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Falso.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 106,
+       "pregunta": "¿Para que sirve una etiqueta HTML?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Para realizar trabajos en internet.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Para el desarrollo de páginas de internet.",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Para el desarrolo de de sistemas operativos.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 107,
+       "pregunta": "El software de desarrollo se trata de un ámbito más amplio de la programación:",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Verdadero.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Falso.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 108,
+       "pregunta": "¿Qué programa reemplaza las funciones de AutoCAD?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "AutoCAD 2.1",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Civil 3D",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "QGIS",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 109,
+       "pregunta": "¿Qué programa es escencial para el diseño de interiores?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Revit",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Dialux",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Iluminax",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 110,
+       "pregunta": "¿Qué procesador es mejor?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "32 bits",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "64 bits",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Ninguna de las anteriores.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 111,
+       "pregunta": "¿Qué software nos ayuda a simular posibles inundaciones?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "PRIMAVERA",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "AUTOCAD",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "HEC RAS",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 112,
+       "pregunta": "¿Cuál es el software que fue diseñado por el Centro de Ingeniería Hidrológica del Cuerpo de Ingenieros del Ejército de los EE. UU.?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "ARGIS",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "HEC RAS",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "SketchUP",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 113,
+       "pregunta": "¿Cuál es el mejor programa para modelar tuberías de agua potable?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "CADVirtual",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "QGIS",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "WaterCAD",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 114,
+       "pregunta": "Este software permite diseñar nuevos sistemas hidráulicos y gestionar eficazmente las redes de agua existentes para reducir los riesgos de interrupción y el uso de energía:",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "AutoCAD",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "WaterCAD",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "CADVirtual",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 115,
+       "pregunta": "Sistema completo que permite recopilar, organizar, administrar, analizar, compartir y distribuir información geográfica:",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "ARGIS",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "AUTOCAD",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Python",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 116,
+       "pregunta": "¿Qué programa permite la programación gráfica de nodos y generar geometrías?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "SketchUP",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Dynamo",
+                "estado":true
+            },
+            {
+                "id": 2,
+                "text": "Revit",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 117,
+       "pregunta": "¿Qué programa es excelente para la simulación de construcciones?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Robot",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Dynamo",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Dialux",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 118,
+       "pregunta": "¿Se puede intercambiar datos entre Revit y Robot?",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Verdadero.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Falso.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 119,
+       "pregunta": "PowerBI te permite: ",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Organizar, manipular y limpiar bases de datos según las necesidades de tu empresa.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Convertir información simple en información estática. ",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Crear reportes, pero solo para los stakeholders internos.",
+                "estado":false
+            }
+        ]
+    },
+    {
+        "id": 120,
+       "pregunta": "Navisworks:",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Permite a los usuarios abrir y combinar los modelos 3D, navegar por ellos en tiempo real y revisar el modelo utilizando un conjunto de herramientas que incluye comentarios, redlining y mediciones.",
+                "estado":true
+            },
+            {
+                "id": 1,
+                "text": "Permite a los usuarios abrir y combinar los modelos 3D, navegar por ellos en tiempo pasado y revisar el modelo utilizando un conjunto de herramientas que incluye comentarios, redlining y mediciones.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Tiene la capacidad de adaptar información de SketchUP a CADVirtual.",
+                "estado":false
+            }
+        ]
+    }, 
+    {
+        "id": 121,
+       "pregunta": "SketchUp es un:",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Programa de diseño gráfico y modelado 1D.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Programa de diseño gráfico y modelado en dos dimensiones basado en caras.",
+                "estado":false
+            },
+            {
+                "id": 2,
+                "text": "Programa de diseño gráfico y modelado en tres dimensiones basado en caras.",
+                "estado":true
+            }
+        ]
+    },
+    {
+        "id": 122,
+       "pregunta": "PRIMAVERA P6:",
+        "tipo": 4,
+       "alternativa": [
+            {
+                "id": 0,
+                "text": "Es la única opción para crear mapas de calidad.",
+                "estado":false
+            },
+            {
+                "id": 1,
+                "text": "Está diseñado para manejar proyectos a gran escala, altamente sofisticados y multifacéticos.",
+                "estado":true
+
+            },
+            {
+                "id": 2,
+                "text": "Permite manejar formatos raster y vectoriales así como bases de datos.",
+                "estado":false
+            }
+        ]
+    }
+]

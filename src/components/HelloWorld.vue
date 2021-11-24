@@ -2,7 +2,7 @@
   <div>
    <Menu/>
    <div class="no-bottom no-top" id="content">
-              <div id="top"></div>
+             
               <!--Flyer-->
               <Flyer/>
               <!--Juegos-->
@@ -13,16 +13,7 @@
 
     </div>
     <Footer/>
-  <!--<div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      Estos en Home
-      <button @click="sendMenssage">
-        <router-link to="/users" class="nav-link">Enviar mensaje</router-link>
-      </button>
-    </p>
-    
-  </div>-->
+  
   </div>
 </template>
 

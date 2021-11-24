@@ -146,7 +146,7 @@ import Menu from "./elements/HeaderPage.vue";
 import Footer from "./elements/Footer.vue";
 export default {
 
-  name: 'Curso',
+  name: 'Detallepack',
    data: function(){
     return{
         idcurso: 0,
