@@ -24,17 +24,19 @@
                             />
                         
                         </div>
-                        <div class="nft__item_info">
-                         
-                            <h3 v-text="p.name"></h3>
-                            <p class="text-white">{{p.descripcion}}</p>
-                       
-
-                          <div class="nft__item_price">
-                            <strike>Antes {{p.precio_antes}}</strike>
+                        <div class="nft__item_info">                         
+                            <h3 class="mt-4" v-text="p.name"></h3>
+                            <ul class="text-white" style="font-size:14px">
+                              <li>{{p.curso_uno}}</li>
+                             <li>{{p.curso_dos}}</li>
+                             <li v-if="p.id==1">{{p.curso_tres}}</li>
+                            </ul>
+                          
+                          <div class="nft__item_price text-center">
+                          Antes {{p.precio_antes}} (-50% dto) <br>
                             <span class="fs-1">{{p.precio_ahora}}</span>
                           </div>
-                          <div class="nft__item_action mt-4">
+                          <div class="nft__item_action mt-4 text-center">
                             <button class="btn-main wow fadeInUp lead" href="#">
                               Adquirir Paquete
                             </button>
@@ -76,8 +78,9 @@ export default {
             {
                 id:1,
                 name:'PACK : Control Acuático',
-                descripcion:
-                "ESTUDIO DE CUENCAS CON ARCGIS v10.8 USANDO DEMs + MODELAMIENTO HIDRÁULICO CON HEC-RAS v.6.0 + MODELAMIENTO HIDROLÓGICO CON HEC-HMS v4.8",
+                curso_uno:"ESTUDIO DE CUENCAS CON ARCGIS v10.8 USANDO DEMs",
+                curso_dos:"MODELAMIENTO HIDRÁULICO CON HEC-RAS v.6.0",
+                curso_tres:"MODELAMIENTO HIDROLÓGICO CON HEC-HMS v4.8",               
                 img:'https://cersa.org.pe/assets_blackfriday/img/pack_1_agua.png',
                 icon:'https://cersa.org.pe/assets_blackfriday/img/1_icon_agua.png',
                 precio_antes: 'S/ 370',
@@ -86,8 +89,8 @@ export default {
             {
                 id:2,
                 name:'PACK : Control Acuático',
-                descripcion:
-                "DIPLOMADO EN DISEÑO, RESIDENCIA Y SUPERVISIÓN DE OBRAS HIDRÁULICAS + DIPLOMADO EN DISEÑO DE PRESAS DE TIERRA Y CONCRETO 2021",
+                curso_uno:"DIPLOMADO EN DISEÑO, RESIDENCIA Y SUPERVISIÓN DE OBRAS HIDRÁULICAS",
+                curso_dos:"DIPLOMADO EN DISEÑO DE PRESAS DE TIERRA Y CONCRETO 2021",
                 img:'https://cersa.org.pe/assets_blackfriday/img/pack_2_agua.png',
                 icon:'https://cersa.org.pe/assets_blackfriday/img/1_icon_agua.png',
                 precio_antes: 'S/ 800',
@@ -98,14 +101,16 @@ export default {
                 name:'PACK : Control Tierra',
                 img:'https://cersa.org.pe/assets_blackfriday/img/pack_3_tierra.png',
                 icon:'https://cersa.org.pe/assets_blackfriday/img/juego.png',
-                descripcion:"DIPLOMADO DE ESPECIALIZACIÓN EN MECÁNICA DE ROCAS APLICADA A LA ESTABILIDAD DE TALUDES 2021 + GESTIÓN DE RIESGOS DE DESASTRES CON ARCGIS y QGIS",
+                curso_uno:"DIPLOMADO DE ESPECIALIZACIÓN EN MECÁNICA DE ROCAS APLICADA A LA ESTABILIDAD DE TALUDES 2021",
+                curso_dos:"GESTIÓN DE RIESGOS DE DESASTRES CON ARCGIS y QGIS",               
                 precio_antes: 'S/ 650',
                 precio_ahora: 'S/ 325'
             },
             {
                 id:4,
                 name:'PACK : Super Resistencia',
-                descripcion:"DIPLOMADO EN DISEÑO DE CIMENTACIONES + CÁLCULO Y DISEÑO CON GEOSINTÉTICOS 2021",
+                curso_uno:"DIPLOMADO EN DISEÑO DE CIMENTACIONES",
+                curso_dos:"CÁLCULO Y DISEÑO CON GEOSINTÉTICOS 2021",
                 img:'https://cersa.org.pe/assets_blackfriday/img/pack_4_resistencia.png',
                 icon:'https://cersa.org.pe/assets_blackfriday/img/juego.png',
                 precio_antes: 'S/ 700',
@@ -114,7 +119,8 @@ export default {
             {
                 id:5,
                 name:'PACK  : Control de Energía',
-                descripcion:"PANELES FOTOVOLTAICOS PARA BAJA TENSIÓN + DIPLOMADO EN CENTRALES HIDROELÉCTRICAS 2021",
+                curso_uno:"PANELES FOTOVOLTAICOS PARA BAJA TENSIÓN ",
+                curso_dos:"DIPLOMADO EN CENTRALES HIDROELÉCTRICAS 2021",
                 img:'https://cersa.org.pe/assets_blackfriday/img/pack_5_energia.png',
                 icon:'https://cersa.org.pe/assets_blackfriday/img/juego.png',
                 precio_antes: 'S/ 650',
@@ -123,7 +129,8 @@ export default {
             {
                 id:6,
                 name:'PACK : Control de Software',
-                descripcion:"METRADOS CON BIM REVIT - NAVISWORKS + ANÁLISIS, DISEÑO Y MODELAMIENTO CON ROBOT STRUCTURAL ANALYSIS PROFESSIONAL NIVEL BÁSICO - INTERMEDIO - AVANZADO",
+                curso_uno:"METRADOS CON BIM REVIT - NAVISWORKS ",
+                curso_dos:"ANÁLISIS, DISEÑO Y MODELAMIENTO CON ROBOT STRUCTURAL ANALYSIS PROFESSIONAL NIVEL BÁSICO - INTERMEDIO - AVANZADO",
                 img:'https://cersa.org.pe/assets_blackfriday/img/pack_6_software.png',
                 icon:'https://cersa.org.pe/assets_blackfriday/img/juego.png',
                 precio_antes: 'S/ 600',

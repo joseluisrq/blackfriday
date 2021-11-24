@@ -78,8 +78,8 @@
 					<div class="row" style="background-size: cover;">
 
                         <div class="col-md-12" style="background-size: cover;">
-                            <span class="filter__l">Felicitaciones Ganaste un cupón de </span>
-                            <span class="filter__r fs-1 text-white">S/ {{cripto}}</span>
+                            <span class="filter__l">Felicitaciones Ganaste un cupón de : </span>
+                            <span class="fs-1 text-white">S/ {{cripto}}</span>
                             <br>
                             <h2>CUPÓN : {{cupon}}</h2>
                             <div class="spacer-half" style="background-size: cover;"></div>
@@ -91,8 +91,10 @@
 
                         </div>
                     </div>
+                    <hr>
+                     <h1>Utiliza tu cupón en estos cursos 👇</h1>
                 </div>
-                <h1>Utiliza tu copón aquí 👇</h1>
+               
                 <Top/>
             </section>
            

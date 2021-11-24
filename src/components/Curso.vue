@@ -1,12 +1,11 @@
 <template>
+<div>
+    <Menu/>
 
-  <div class="no-bottom no-top" id="content" style="background-size: cover;">
-         <Menu/>
-            <div id="top" style="background-size: cover;"></div>
-            
-
+        <div class="no-bottom no-top " id="content" style="background-size: cover;">
+       
             <section aria-label="section" class="mt90 sm-mt-0" style="background-size: cover;">
-                <div class="container" style="background-size: cover;">
+                <div class="container mt-4" style="background-size: cover;">
                     <div class="row" style="background-size: cover;">
                       <div class="col-md-12">
                           <h2>{{curso.nombre_corto}}</h2>
@@ -136,6 +135,7 @@
             
            <Footer/> 
         </div>
+</div>
 </template>
 
 <script>
