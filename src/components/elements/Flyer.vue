@@ -1,6 +1,6 @@
 <template>
   <section
-            id="section-hero"
+           
             aria-label="section"
             class="pt20 pb20 vh-100"
           >
@@ -28,7 +28,7 @@
                       href="#juegos"
                       class="btn-main wow fadeInUp lead"
                       data-wow-delay="1.25s"
-                      style="font-size: 30px"
+                      style="font-size: 30px;background-color:#dc3545"
                       >Explorar</a
                     >
                     <div class="row">
@@ -82,7 +82,7 @@
                     </div>
                   </div>
                   <div class="col-md-6 xs-hide">
-                    <div id="imagen">
+                    <div >
                       <img 
                       src="https://cersa.org.pe/assets_blackfriday/img/ing_supering.png"  />
                     </div>

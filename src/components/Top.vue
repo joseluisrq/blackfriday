@@ -2,7 +2,7 @@
 <div>
  
 
-  <section section id="cursos" class="pt30 pb30">
+  <section section  class="pt30 pb30">
   <div class="container">
    <div class="row">
                 <div class="col-lg-12">
@@ -101,8 +101,8 @@ Cursos Talleres Presencialesa</option>
                                
                             </div>
                             <div
-                              class="nft__item_action"
-                              style="background-size: cover"
+                              
+                              style="background-size: cover;color:#dc3545"
                             >
                             COMPRAR
                             </div>

@@ -54,7 +54,7 @@
               </div>
             </div>
           </div>
-        </footer>
+  </footer>
 </template>
 
 <script>

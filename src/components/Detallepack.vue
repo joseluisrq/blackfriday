@@ -20,7 +20,7 @@
                           <hr>
                           <div class="row">
                             <div class="col-md-6">
-                              <h5>Antes S/ {{curso.precio_antes}}<span class="text-warning"> -50%</span> </h5>
+                              <h5 style="color:#dc3545">Antes S/ {{curso.precio_antes}}<span class="text-warning"> -50%</span> </h5>
                               <h2>Ahora S/ {{curso.precio_ahora}}</h2>
                             </div>
                             <div class="col-md-6">
@@ -36,7 +36,7 @@
                                         <input name="currency"    type="hidden"  	:value="currency" >
                                         <input name="signature"  type="hidden"   	:value="firmaMd5" >
                                         <input name="test"    type="hidden"      	:value="test" > 
-                                        <input class="btn-main btn-lg" name="Submit" type="submit"  value="Comprar Ahora" >
+                                        <input class="btn btn-lg text-white" style="background-color:#dc3545" name="Submit" type="submit"  value="Comprar Ahora" >
                                         <br>
                                         <br>
                                     </form>		

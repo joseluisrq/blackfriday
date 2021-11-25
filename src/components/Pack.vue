@@ -32,12 +32,12 @@
                              <li v-if="p.id==1">{{p.curso_tres}}</li>
                             </ul>
                           
-                          <div class="nft__item_price text-center">
+                          <div class="nft__item_price text-center" style="color:#dc3545">
                           Antes {{p.precio_antes}} (-50% dto) <br>
                             <span class="fs-1">{{p.precio_ahora}}</span>
                           </div>
                           <div class="nft__item_action mt-4 text-center">
-                            <button class="btn-main wow fadeInUp lead" href="#">
+                            <button class="btn-main wow fadeInUp lead" style="background-color:#dc3545" href="#">
                               Adquirir Paquete
                             </button>
                           </div>

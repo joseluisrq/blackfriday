@@ -3,13 +3,13 @@
    <Menu/>
    <div class="no-bottom no-top" id="content">
              
-              <!--Flyer-->
+            
               <Flyer/>
-              <!--Juegos-->
+      
               <Juegos/>
-              <!--Super Pack-->
+              
               <Pack/>
-              <Top/>
+              <Top/>  
 
     </div>
     <Footer/>
@@ -18,9 +18,10 @@
 </template>
 
 <script>
-  import Menu from "./elements/HeaderPage.vue";
+
   import Flyer from "./elements/Flyer.vue";
-  import Juegos from "./Juegos.vue";
+  import Menu from "./elements/HeaderPage.vue";
+import Juegos from "./Juegos.vue";
   import Footer from "./elements/Footer.vue";
   import Pack from "./Pack.vue";
   import Top from "./Top.vue";

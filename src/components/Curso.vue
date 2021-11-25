@@ -18,20 +18,20 @@
                                      <div class="row gx-2 mt-4" style="background-size: cover;">
                                             <div class="col-lg-4 col-md-6 col-sm-6" style="background-size: cover;">
                                                 <a href="#" class="nft_attr">
-                                                    <h5>Duración</h5>
+                                                    <h5 style="color:#dc3545">Duración</h5>
                                                     <h4>{{curso.duracion}}</h4>
                                                  
                                                 </a>
                                             </div>
                                             <div class="col-lg-4 col-md-6 col-sm-6" style="background-size: cover;">
                                                 <a href="#" class="nft_attr">
-                                                    <h5>Sesiones</h5>
+                                                    <h5 style="color:#dc3545">Sesiones</h5>
                                                     <h4>{{curso.sesiones}}</h4>
                                                 </a>
                                             </div>
                                              <div class="col-lg-4 col-md-6 col-sm-6" style="background-size: cover;">
                                                 <a class="nft_attr">
-                                                    <h5>Modalidad</h5>
+                                                    <h5 style="color:#dc3545">Modalidad</h5>
                                                     <template v-if="curso.modalidad_id==2">
                                                       <h4>Asincrónica</h4>
                                                     </template>
@@ -92,7 +92,7 @@
                                         <input name="currency"    type="hidden"  	:value="currency" >
                                         <input name="signature"  type="hidden"   	:value="firmaMd5" >
                                         <input name="test"    type="hidden"      	:value="test" > 
-                                        <input class="btn-main btn-lg" name="Submit" type="submit"  value="Comprar Ahora" >
+                                        <input class="btn-main btn-lg" style="background-color:#dc3545" name="Submit" type="submit"  value="Comprar Ahora" >
                                         <br>
                                         <br>
                                     </form>		
@@ -130,7 +130,7 @@
                                         <input name="currency"    type="hidden"  	:value="currency" >
                                         <input name="signature"  type="hidden"   	:value="firmaMd5" >
                                         <input name="test"    type="hidden"      	:value="test" > 
-                                        <input class="btn-main btn-lg" name="Submit" type="submit"  value="Comprar Ahora" >
+                                        <input class="btn-main btn-lg" style="background-color:#dc3545" name="Submit" type="submit"  value="Comprar Ahora" >
                                     </form>		
                                 &nbsp;
                                 <a href="https://api.whatsapp.com/send?phone=51992256742&text=Estoy%20interesado%20en%20la%20promoci%C3%B3n%20del%20Black%20Friday" class="btn-main btn-lg btn-light" target="_bank">

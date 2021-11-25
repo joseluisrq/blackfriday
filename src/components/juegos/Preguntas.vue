@@ -19,7 +19,7 @@
                                             <span style="font-size:20px" class=" bg bg-warning p-2">Gana un cupón hasta de S/30 </span><br><br>
 
                                                 <div class="text-right">
-<button v-on:click="MostrarPreguntas()" class="btn-main">Empezar</button>
+<button v-on:click="MostrarPreguntas()" class="btn-main" style="background-color:#dc3545">Empezar</button>
                         </div>
                                         </h4>
                                       
@@ -65,14 +65,14 @@
                                         </li> 
                                    
                                 </template>     
-                                <button class="btn btn-danger" v-on:click="Calificar(checked)">ENVIAR RESPUESTAS</button>                       
+                                <button class="btn  text-white" style="background-color:#dc3545" v-on:click="Calificar(checked)">ENVIAR RESPUESTAS</button>                       
                             </ul>
                            
                      
 
 				</div>
-			</section>
-            <section v-else-if="view==3" aria-label="section" style="background-size: cover;" >
+		</section>
+        <section v-else-if="view==3" aria-label="section" style="background-size: cover;" >
                 <div class="container" style="background-size: cover;">
 					<div class="row" style="background-size: cover;">
 
@@ -95,7 +95,7 @@
                 </div>
                
                 <Top/>
-            </section>
+        </section>
            
       
       <Footer/>
